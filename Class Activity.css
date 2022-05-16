@@ -1,0 +1,35 @@
+.top {
+    background-color: red;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    margin: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 50px;
+    
+}
+
+.middle {
+    background-color: blue;
+    height: 70px;
+    width: 500px;
+    text-align: center;
+    margin: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 70px;
+    
+}
+
+.bottom {
+    background-color: green;
+    height: 90px;
+    width: 600px;
+    text-align: center;
+    margin: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 90px;
+
+}
