@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&display=swap');
+
 #content {
     width: 100%;
     max-width: 1600px;
@@ -9,10 +11,15 @@ nav a:hover {
     background-color: gainsboro;
     color: black;
     text-decoration: none;
+    padding: 35px; 
 }
 
 nav a {
 color: white;
+text-decoration: none;
+color: #fcfbfb;
+text-align: center;
+padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -35,6 +42,10 @@ main section {
 
 body {
     background-color: #FBFFC7;
+    font-family: "Merriweather", "Playfair Display", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -45,6 +56,10 @@ header {
     background-color: white;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -54,6 +69,9 @@ header {
 
 .msg {
     background-color: white;
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -62,14 +80,21 @@ header {
 
 msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+
 }
 
 footer {
     background-color: #FECBE1;
+    margin-top: 200px;
 }
 
 .home-title {
     color: black;
+    font-family: "Merriweather", "Playfair Display", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -83,10 +108,16 @@ footer h3 {
 footer a {
     color: black;
     text-decoration: none;
+    padding: 25px 50px;
 }
 
 footer a:hover {
     color: white;
+}
+
+footer .social img {
+    padding-top: 15px;
+
 }
 
 .logo {
@@ -95,6 +126,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -103,4 +135,32 @@ footer a:hover {
 
 .Hello-world {
     background-color: grey;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+rivers-card {
+    margin: 200px 0;
+} 
+
+.camping-card {
+    margin: 200px 0;
+} 
+
+.rapids-card {
+    margin: 200px 0;
+
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
