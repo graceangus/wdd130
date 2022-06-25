@@ -1,0 +1,23 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.grid1 > img{
+    width: 100%;
+    grid-column: 1/8;   
+    grid-row: 1/4;
+}
+
+.grid1 > p{
+    grid-column: 7/10;
+    grid-row: 2/3;
+}
+
+p{
+    background-color: yellow;
+    color: black;
+    border: solid black 5px;
+    margin-top: 50PX;
+}
