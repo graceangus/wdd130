@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bake Me a Cake - Contact Us</title>
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/baking.css">
-    <link rel="stylesheet" href="styles/decorating.css">
     <link rel="stylesheet" href="styles/contactuscake.css">
     
 </head>
@@ -25,6 +22,40 @@
                 <a href="/Final Website/contactuscake.html">Contact Us</a>
             </nav>
         </header>
+
+        <main>
+            <div id="feedback"></div>
+            <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+			<ul>
+				<li>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="user_name" />
+				</li>
+				<li>
+					<label for="mail">Email:</label>
+					<input type="email" id="mail" name="user_mail" />
+				</li>
+				<li>
+					<label for="msg">Message:</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</li>
+				<li class="button">
+					<button type="submit">Send your message</button>
+				</li>
+			</ul>
+		</form>
+            <script>
+                    const feedbackElement = document.getElementById('feedback');
+                    const formElement = document.forms[0];
+                    formElement.addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        feedbackElement.innerHTML = 'Thank you for your message '+ formElement.user_name.value +'! You can expect a response within the next 48 hours.';
+                        feedbackElement.style.display = "block";
+                        document.body.classList.toggle('moveDown');
+                    });
+            </script>
+        </main>
 
         <footer>
             <h3>Bake Me a Cake &copy; 2022 - Grace Angus</h3>

@@ -1,0 +1,21 @@
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #563DB3; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #563DB3; 
+    padding: 25px 50px;
+}
