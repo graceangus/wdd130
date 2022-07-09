@@ -207,7 +207,7 @@ h2 {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img:hover {
+.card-img:c {
     opacity: .6;
     transform: scale(1.1);
 }

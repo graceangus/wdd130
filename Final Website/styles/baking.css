@@ -1,0 +1,64 @@
+#homegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.div1{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #563DB3; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    padding: 15px}
+
+h3{
+    padding: 15px;
+}
+
+li{
+    margin-left: 15px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.abc{
+    border: solid black 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform .5s;
+}
+
+img:hover{
+    opacity: .6;
+    transform: scale(1.03);
+}
+
+header img{
+    border: none;
+}
+
+footer img{
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #563DB3; 
+    padding: 25px 50px;
+}
