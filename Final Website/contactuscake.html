@@ -9,7 +9,6 @@
     
 </head>
 <body>
-    <div>
         <header>
             <a href="./index.html">
                 <img class="logo_img" src="./Images/logo_200x200.png" alt="logo">
@@ -49,18 +48,9 @@
 				            </li>
 			            </ul>
 		            </form>
-                        <script>
-                                const feedbackElement = document.getElementById('feedback');
-                                const formElement = document.forms[0];
-                                formElement.addEventListener('submit', function(e) {
-                                    e.preventDefault();
-                                    feedbackElement.innerHTML = 'Thank you for your message '+ formElement.user_name.value +'! You can expect a response within the next 48 hours.';
-                                    feedbackElement.style.display = "block";
-                                    document.body.classList.toggle('moveDown');
-                                });
-                        </script>
+                        
                 </div>
-            </div>
+            
             
         </main>
 
@@ -80,6 +70,16 @@
                 </a>
             </div>
         </footer>
-    </div>
+    
+    <script>
+        const feedbackElement = document.getElementById('feedback');
+        const formElement = document.forms[0];
+        formElement.addEventListener('submit', function(e) {
+            e.preventDefault();
+            feedbackElement.innerHTML = 'Thank you for your message '+ formElement.user_name.value +'! You can expect a response within the next 48 hours.';
+            feedbackElement.style.display = "block";
+            document.body.classList.toggle('moveDown');
+        });
+</script>
 </body>
 </html>

@@ -100,7 +100,7 @@ form {
     top: 0;
     left: 0;
     right: 0;
-    padding: .5em;
+    padding: .95em;
     display: none;  
 }
 .moveDown {
@@ -118,4 +118,14 @@ footer{
     align-items: center;
     background-color: #563DB3; 
     padding: 25px 50px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
 }

@@ -66,3 +66,13 @@ footer{
     background-color: #563DB3; 
     padding: 25px 50px;
 }
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}

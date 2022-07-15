@@ -75,3 +75,13 @@ body{
     margin: 0;
     padding: 0;
 }
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
