@@ -5,6 +5,10 @@
     
 }
 
+.logo_img{
+    width: 100%;
+}
+
 .grid1 > img{
     width: 100%;
     grid-column: 1/4;
@@ -71,4 +75,3 @@ body{
     margin: 0;
     padding: 0;
 }
-

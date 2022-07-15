@@ -4,10 +4,43 @@ header{
     background-color: #563DB3; 
 }
 
+.logo_img{
+  width: 100%;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+#home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.img1{
+  grid-column: 2/3;
+  grid-row: 1/3;
+  width: 100%;
+  border: solid black 5px;
+}
+
+#home-grid img:hover{
+  opacity: .6;
+  transform: scale(1.01);
+}
+
+.contact{
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 
 
@@ -68,13 +101,16 @@ form {
     left: 0;
     right: 0;
     padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;       
+    display: none;  
 }
 .moveDown {
     margin-top: 3em;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
 
 footer{
     display: flex;
